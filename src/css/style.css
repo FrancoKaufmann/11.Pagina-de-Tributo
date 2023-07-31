@@ -1,0 +1,374 @@
+              
+:root {
+    --bg-principal-color: #F4F9FC;
+    --bg-secundario-color: #E6EEF2;
+    --ft-principal-color: #292A2B;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Opificio', sans-serif;                                        
+    background-color: var(--bg-principal-color);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+header .nome {
+    font-size: 48px;
+    display: flex;
+    padding-top: 17.5px;
+    padding-bottom: 17.5px;
+    color: var(--ft-principal-color);
+}
+
+#banner {
+    background-image: url(../image/Design\ sem\ nome\ \(1\).png);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nina {
+    flex-direction: column;
+    align-items: center;
+}
+
+section .img-nina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .img-nina {
+    margin-top: 100px;
+}
+section .img-nina img {
+    width: 1600px;
+}
+
+section .nome-nina, .nome-nina2 {
+    margin: 0;
+    padding: 0;
+}
+
+section .nome-nina2 {
+    color: #97CBF0;
+    font-size: 64px;
+    padding-left: 490px;
+}
+
+section .nome-nina {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+section .nome-title-nina {
+
+    margin-left: 510px;
+    margin-right: 640px;
+    font-size: 20px;
+    text-align: center;
+    color: var(--ft-principal-color);
+}
+
+section .container-ninasimone {
+    position: absolute;
+    bottom: -280px;
+    width: 100%;
+    height: 100px;
+}
+
+.title-ct {
+    margin-top: 100px;
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-secundario-color);
+}
+
+article .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article .title p {
+    width: 100%;
+
+    text-align: center;
+    line-height: 28px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#textosecundario {
+    margin-top: 100px;
+}
+
+article section p {
+    font-size: 35px;
+    width: 438px;
+    text-align: center;
+}
+
+.data {
+    flex-direction: column;
+    align-items: center;
+}
+
+aside .container-text {
+    width: 1190px;
+    
+}
+
+aside .secundario-data1 p {
+    align-items: center;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 40px;
+    
+}
+
+aside .secundario-data2 p {
+    align-items: center;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 40px;
+    
+}
+
+aside .secundario-data3 p {
+    align-items: center;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 40px;
+    
+}
+
+aside .secundario-data4 p {
+    align-items: center;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 40px;
+    
+}
+
+/* parte do player */
+
+section .secundario-text-player {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+section .title-player {
+    font-size: 40px;
+}
+
+section .linha {
+    background-color: var(--ft-principal-color);
+    width: 300px;
+    height: 1.5px;
+    margin-top: 8px;
+}
+
+.sound {
+    width: 1190px;
+}
+
+.sound .text-player {
+    font-size: 24px;
+    color: var(--ft-principal-color);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.sound audio {
+    width: 1190px;
+    
+}
+
+.cod-player img {
+    width: 270px;
+    height: 70px;
+    padding-left: 70px;
+}
+
+.cod-player {
+    margin-bottom: 100px;
+    background-color: var(--bg-secundario-color);
+    width: 400px;
+    height: 70px;
+    border-radius: 100px;
+}
+
+.player {
+    margin-bottom: 10px;
+}
+
+/* Parte do footer(rodape) */
+
+
+footer {
+    margin-top: 200px;
+    background-color: var(--bg-secundario-color);
+}
+
+footer .cont-info{
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+}
+
+footer .info-linha {
+    width: 100%;
+    height: 1px;
+    background-color: var(--ft-principal-color);
+    margin-top: 5px;
+}
+
+footer .cont-fav {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .text-fav {
+    font-size: 32px;
+    align-items: center;
+    margin-bottom: 20px;
+    color: var(--ft-principal-color);
+}
+
+footer .cod-fav img {
+    width: 250px;
+    height: 60;
+}
+
+footer .cont-net {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .text-net a {
+    text-decoration: none;
+    color: var(--ft-principal-color);
+}
+
+footer .linha-copy {
+    width: 1265px;
+    height: 1px;
+    background-color: var(--ft-principal-color);
+    margin-bottom: 30px;
+}
+
+footer .cont-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer .text-copy {
+    font-size: 20px;
+    color: var(--ft-principal-color);
+}
+
+
+@media (max-width:1300px) {
+    
+    article .title p{
+        width: 900px;
+    }
+
+    aside .container-text {
+        width: calc(100% - 100px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sound .text-player {
+        margin-left: 80px;
+    }
+
+    .sound {
+        width: 1000px;
+    }
+
+    .sound audio {
+        width: 900px;
+        margin-left: 50px;
+    }
+
+    .cod-player {
+        margin-left: 50px;
+    }
+
+    footer .text-info {
+        width: 900px;
+        font-size: 30px;
+
+    }
+
+    footer .info-linha {
+        width: 1000px;
+        align-items: center;
+    }
+
+    footer .linha-copy {
+        width: 1000px;
+    }
+
+    .nina {
+        width: 1000px;
+    }
+
+    section .nome-title-nina {
+        margin: 0px;
+    }
+
+    section .img-nina img {
+        width: 100%;
+    }
+
+@media (max-width:1000px) {
+
+    footer .info-linha {
+        width: calc(100% - 100px)
+    }
+
+    footer .linha-copy {
+        width: calc(100% - 100px)
+    }
+}
+    
+
+
+    
+
+        
+        
+}
